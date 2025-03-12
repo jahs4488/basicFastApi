@@ -1,0 +1,40 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+env/
+venv/
+ENV/
+*.pdb
+
+# Dependencias de pip
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Archivos de configuración de entornos virtuales
+.venv/
+
+# Archivos de caché de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Base de datos
+*.sqlite3
+*.db
+
+# Archivos de configuración IDE
+.idea/
+.vscode/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Logs
+*.log
+
+# Archivos de compilación
+*.bak
+*.swp
