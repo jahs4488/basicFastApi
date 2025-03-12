@@ -1,5 +1,7 @@
 # FastAPI Project
 
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnVpbmt5dmRqeGVha3oxbnM1a2Z1eWxhMGR3c2dsYXFjOHpiMTBlYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rHd6tkRptFuk8/giphy.gif)
+
 Este es un proyecto básico usando **FastAPI** para crear una API RESTful. Este README proporciona instrucciones para configurar y ejecutar el proyecto en tu máquina local usando JWT.
 
 ## Requisitos
@@ -42,7 +44,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas:
     ```
     - Luego, ejecuta el comando para instalar todos los paquetes.
     ```
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 
 4. Ejecuta el servidor:
@@ -53,7 +55,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 
     Si presenta problemas con pip intenta con:
     ```
-    python -m uvicorn main:app --reload
+    python3 -m uvicorn main:app --reload
     ```
     Esto garantizará que el proyecto se ejecute con la misma versión de Python y que las dependencias estén instaladas correctamente.
 
